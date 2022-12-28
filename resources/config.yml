@@ -1,0 +1,80 @@
+#by FantasyGirl1988
+config-version: 1.0
+
+#bewerbung Schließen?
+bewerbung: false
+
+
+#Rangshop Options 
+#Achtung: Bitte ändere nicht bei rank1 und so weiter! Und Mache nicht neu z.b unter rank5 einfach rank6 das geht nicht!
+
+rankshop:
+ rank1:
+  name: "Spieler"
+  prize: 1000
+ rank2:
+  name: "Spieler"
+  amount: 2000
+ rank3:
+  name: "Spieler"
+  price: 3000
+ rank4:
+  name: "Spieler"
+  noname: 4000
+ rank5:
+  name: "Spieler"
+  mapname: 5000
+  
+#Hier kannst du einstellen ob es die Commands gibt!
+
+adventskalender: true #Für weinachten!
+fly: true
+vanish: true
+bewerben: true
+rangshop: true
+rules: true
+meinmoney: true
+youtube: true
+pay: true
+spectate: true
+hilfe: true
+mute: false #Wird gerade noch Fehler behebung!
+werbung: false #behebung bei Fehler!
+info: true
+changelog: true
+nachricht: true
+teamchat: true
+clearinventory: true #(/ic)
+clearchat: true #(/cc, /clearchat)
+msg: true
+gamemode: true
+credits: false #wird behoben!
+
+#Addons sind nur Die Commands hinzufügen!
+addons: []
+
+#Funktionen
+menus: true #Wird noch gemacht und wen mans deaktiviert passier nichts!
+scoreboard: true #In bearbeitung!
+scoreboard-title: "§l§4GAMERHUB"
+
+
+#bewerben menu Options
+vorraussetzungen-alter: 13
+bewerben-supporter: true
+bewerben-builder: true
+bewerben-developer: true
+
+#youtube setting
+yt-channel: "https://youtube.com" #Wird nur angezeigt wen man keine Permission hat!
+
+#Sprache
+# Speaks: custom, eng_EU more Soon!
+speak: "ger_DE"
+
+#Welten
+#Hier kannsr du die Welten einstellen!
+farmwelt: "farmwelt"
+citybuild: "citybuild"
+lobby: "world"
+nether: "nether"
