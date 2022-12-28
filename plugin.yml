@@ -1,0 +1,130 @@
+name: CityBuildSystem
+version: 2.0.0
+api: 4.0.0
+author: FantasyGirl1988
+main: FantasyGirl1988\SendPlugin\Main
+
+commands:
+ 
+ opplayer: 
+  description: "Gebe jemaden OP"
+  permission: op.cmd
+ witze:
+  description: "Siehe Witze"
+  permission: witze.cmd
+ bewerben:
+  description: "Bewerbe dich!"
+  permission: bewerben.cmd
+ youtube:
+  description: "Gehe in das Youtube Menu!"
+  permission: youtube.cmd
+  aliases: ["yt", "kanal"]
+ id:
+  description: "Zeige die Id von einem Item!"
+  permission: id.cmd
+ pay:
+  description: "Gebe Jemanden Geld!"
+  permission: pay.cmd
+ rangshop:
+  description: "gehe in den Rangshop!"
+  permission: rangshop.cmd
+  aliases: ["rshop", "rankshop"]
+ spectate:
+  description: "Beobachte einen Spieler!"
+  permission: spectate.cmd
+ hilfe:
+  description: "Siehe dir die Hilfe liste an!"
+  permission: hilfe.cmd
+ mute:
+  description: "Mute jemanden"
+  permission: mute.cmd
+ werbung:
+  description: "Mache Werbung"
+  permission: werbung.cmd
+ info:
+  description: "Siehe informietionen"
+  permission: info.cmd
+ changelog:
+  description: "Siehe den Changelog!"
+  permission: changelog.cmd
+ nachricht:
+  description: "Schreibe jeden eine Nachricht"
+  permission: nachricht.cmd
+ teamchat:
+  description: "Schreibe in Teamchat!"
+  permission: teamchat.command
+ serverrestart:
+  description: "Sende dir Restart Nachricht!"
+  permission: restart.cmd
+ ic:
+  description: "Lösche dein Inventar!"
+  permission: clear.cmd
+ supporter:
+  description: "Sende eine Nachricht an einem Supporter!"
+  permission: sup.cmd
+ cc:
+  description: "Cleare den Chat!"
+  permission: cc.cmd
+ msg:
+  description: "Schreibe jemanden!"
+  permission: msg.cmd 
+ gm:
+  description: "Gehe in einem Gamemode!"
+  permission: gm.cmd
+
+permissions:
+
+ op.cmd:
+  default: op
+ witze.cmd:
+  default: true
+ bewerben.cmd:
+  default: true
+ youtube.cmd:
+  default: op
+ id.cmd:
+  default: true
+ pay.cmd:
+  default: true
+ rangshop.cmd:
+  default: true
+ kick.bypass:
+  default: op
+ youtube.see:
+  default: op
+ meinmoney.admin:
+  default: op
+ hilfe.cmd:
+  default: true
+ spectate.cmd:
+  default: op
+ mute.cmd:
+  default: op
+ werbung.cmd:
+  default: op
+ info.cmd:
+  default: true
+ changelog.cmd:
+  default: true
+ nachricht.cmd:
+  default: op
+ teamchat.command:
+  default: op
+ teamchat.see:
+  default: op
+ restart.cmd:
+  default: op
+ clear.cmd:
+  default: op
+ sup.cmd:
+  default: true
+ sup.see:
+  default: op
+ cc.cmd:
+  default: op
+ msg.cmd:
+  default: true
+ msg.see:
+  default: op
+ gm.cmd:
+  default: op
