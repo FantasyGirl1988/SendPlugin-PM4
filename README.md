@@ -5,3 +5,9 @@ Hier ist der Code zu meinem SendPlugin!
 
 - Credits (Crash)
 - Warp Commands (Crash)
+
+# Update Log
+
+- Lobby command mit Server verbunden
+- Config.yml geupdatet
+- und mehr!
